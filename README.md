@@ -7,7 +7,7 @@ we download the file and name it as `dataset`
 # Description
 
 ## Step
-1. Data Preprocessing: `data_split.py` splits the image files in `dataset` into categories into `./data/weather_dataset`
+1. To preprocess the data, the `data_split.py` program categorizes the image files located in the `dataset` folder and moves them to the `./data/weather_dataset` directory.
 2. Build The Model: `main.py` splits the image files into random forest classifier, test how the performance is, and save the model as `model.p`
 3. Build The Model: load the model we save and pick the random image to test if the model can predict what image it feeds.
 
